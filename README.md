@@ -57,7 +57,7 @@
 ## 三、内容一览
 
 ```
-automation-handbook/
+workflow-optimization/
   ├── SKILL.md              入口：触发词 / 按症状路由 / 红线 5 条 / 工具
   ├── README.md             本文件：给人看的手册说明
   ├── manual/               ★ 手册正文
@@ -246,7 +246,7 @@ find . -type f -exec stat -c '%n %Y' {} \; | sort > /tmp/mt_after.txt
 diff /tmp/mt_before.txt /tmp/mt_after.txt && echo "只读 OK"
 ```
 
-> **装成 agent skill**：`SKILL.md` 的 `name` 是 `automation-handbook`（小写字母 + 连字符，
+> **装成 agent skill**：`SKILL.md` 的 `name` 是 `workflow-optimization`（小写字母 + 连字符，
 > 符合常见加载器的命名要求）。建议目录也用同名 —— 本仓库发布时就是这么放的。
 
 ---
