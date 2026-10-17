@@ -1,5 +1,10 @@
 ---
 name: workflow-optimization
+version: 1.0.0
+display_name: 工作流优化
+display_name_en: Workflow Optimization
+description_zh: 非标自动化视角的工作流设计判据集：把「人每次重新说的手工动作」变成可重复的机器流程。十三条原理 + 四把尺子 40 问，用来体检已有工作流、判断参数该不该单一数据源、设计检查项与验收标准、排查「绿灯看着全过其实没查」的假绿灯、防止同一份规范分发后漂移。适用场景：改造一个跑得起来但总出错的工作流；说不清某条检查判的是什么；验收标准挡不住问题；同一份规范在多处各写一份。纯文档 + 一个只读脚本，不联网。
+description_en: A judgement framework for designing and auditing workflows, translated from industrial automation — change control, detection design, error-proofing and cycle time. Thirteen principles plus a 40-question audit checklist. Use it to audit an existing workflow, decide whether a parameter needs a single source of truth, write acceptance criteria that cannot be faked green, or stop a spec from drifting once it has been copied around. Documentation plus one read-only script, no network access.
 description: 非标自动化视角的工作流设计顾问。把「人每次重新说的手工动作」变成可重复的机器流程时用它——设计或改造 AI 办公工作流、搭 skill/自动化、体检已有流程、判断某个参数该不该单一数据源、写给别人执行的规范或改造指南、检查"绿灯看起来全过但其实没查"、验收标准怎么定、耗时/瓶颈数据怎么采集、同一份规范到处分发怎么防漂移。触发词：工作流优化、流程改造、自动化设计、体检流程、单源化、多副本、判定类参数、防错、Poka-Yoke、检测设计、变更闭环、节拍瓶颈、规范怎么写、验收标准、假绿灯、未执行算不算过、指针、对账同源。也用于"这套流程还能优化哪""这个检查项靠不靠得住""这条规范会不会被误执行"。
 agent_created: true
 ---
