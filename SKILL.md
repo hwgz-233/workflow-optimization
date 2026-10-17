@@ -9,7 +9,7 @@ description: 非标自动化视角的工作流设计顾问。把「人每次重�
 agent_created: true
 ---
 
-# 自动化设计手册（skill 入口）
+# 工作流优化手册（skill 入口）
 
 **本 skill 自带手册正文，就在本目录下：**
 
